@@ -183,6 +183,9 @@ def send_image(uid, image_url):
     image = ImageSendMessage(original_content_url=image_url, preview_image_url=image_url)
     line_bot_api.push_message(uid, image)
 
+@app.route("/")
+def hello():
+    return "Flask on port 5000"
 
 if __name__ == "__main__":
     # a = {
