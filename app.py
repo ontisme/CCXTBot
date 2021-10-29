@@ -185,21 +185,21 @@ def send_image(uid, image_url):
 
 
 if __name__ == "__main__":
-    a = {
-        "time": "2021-10-28 10:43:34",
-        "message": {
-            "page": "trade_info_confirm",
-            "action": "trade",
-            "param": {
-                "market": "",
-                "side": "",
-                "min_price": 0,
-                "max_price": 0,
-                "batch_count": 0,
-                "total_price": 0
-            }
-        }
-    }
-
-    print(a)
+    # a = {
+    #     "time": "2021-10-28 10:43:34",
+    #     "message": {
+    #         "page": "trade_info_confirm",
+    #         "action": "trade",
+    #         "param": {
+    #             "market": "",
+    #             "side": "",
+    #             "min_price": 0,
+    #             "max_price": 0,
+    #             "batch_count": 0,
+    #             "total_price": 0
+    #         }
+    #     }
+    # }
+    #
+    # print(a)
     app.run()
