@@ -17,7 +17,6 @@ import linebot_template
 from datetime import datetime
 import os
 
-# 基本設定
 line_bot_api = LineBotApi(
     "Pu9RNSO/N5lUmDDQf7wMTMpTHcvLe90lDXhOt5Y1Xqf0hE4Le1wwILKcajO/RJ8+T+acOS6v+kVY/G2K/0q9mjdJdssOHmubifFoNuxEerGDJbGVPT5tyMTXNw6NgfkS5EkSZoG85Ez2muBZFO0lKAdB04t89/1O/w1cDnyilFU=")
 handler = WebhookHandler("fb7994472d6108810b93dfd71af28b64")
