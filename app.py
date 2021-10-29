@@ -13,6 +13,7 @@ import client
 import database
 import linebot_template
 from datetime import datetime
+import os
 
 # 基本設定
 line_bot_api = LineBotApi(
@@ -205,4 +206,4 @@ if __name__ == "__main__":
     # }
     #
     # print(a)
-    app.run(host="0.0.0.0", port=5000)
+    app.run(host="0.0.0.0", port=int(os.environ["PORT"]))
